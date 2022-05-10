@@ -1,12 +1,13 @@
 body{
 	margin:0;
+	max-width: 100%;
 }
 #topbg{
 	width:100%;
 	height:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("../images/bg1.jpg");
+	background-image:url("../images/bg.jpg");
 	background-attachment:fixed;
 }
 .topdh{
@@ -14,14 +15,18 @@ body{
 	width: 100%;
 	top:0px;
 	z-index: 9999999;
-	height: 10%;
+	height: 85px;
+}
+.dhwz{
+	margin-top: 35px;
+
 }
 
-
 .dhbox{
-	margin-top: -40px;
+	position: absolute;
+	top: 30px;
 	text-align:center;
-	margin-left: 55%;
+	right: 200px;
 }
 .dhfont{
 	text-decoration:none;
@@ -32,12 +37,12 @@ body{
 .dhfont:hover{
 	border-bottom:2px solid black;
 }
-
 .dhlogo{
-	margin-left: 15%;
-	margin-top: 10px;
+	position: absolute;
+	left: 200px;
 	width:220px;
 	height:60px;
+	top: 12px;
 }
 
 
